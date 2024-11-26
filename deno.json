@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-all --watch main.ts"
+  },
+  "imports": {
+    "@simplewebauthn/server": "jsr:@simplewebauthn/server@^12.0.0",
+    "@simplewebauthn/types": "jsr:@simplewebauthn/types@^12.0.0",
+    "@std/assert": "jsr:@std/assert@1",
+    "@types/express": "npm:@types/express@^5.0.0",
+    "express": "npm:express@^4.21.1"
+  }
+}
